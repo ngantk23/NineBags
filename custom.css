@@ -477,3 +477,7 @@ ul.product-list .list-item .pin.circle {
 .profile-info .profile-data .westeros-form .full-input { 
   margin-bottom: 0;
 }
+#map img{
+  position: absolute;
+  width: 40%;
+}

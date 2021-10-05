@@ -23,7 +23,7 @@ function initialize() {
 
     //Map marker info
     var contentString = '<div id="map-info">'+
-      '<h3>Westeros</h3>'+
+      '<h3>9bags</h3>'+
       '<p style="text-align:left; margin:0;"><strong>Westeros</strong>, is the <strong>best clothing shop</strong> in the city.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit maiores, incidunt quidem natus. Ut dolorum deleniti reiciendis tenetur illum, beatae cum, harum laborum, nisi omnis nulla laboriosam, ipsam nemo consectetur..</p>'+
       '</div>';
 
@@ -32,9 +32,9 @@ function initialize() {
 	  content: contentString
 	});
 
-	google.maps.event.addListener(marker, 'click', function() {
-		infowindow.open(map,marker);
-	});
+	// google.maps.event.addListener(marker, 'click', function() {
+	// 	infowindow.open(map,marker);
+	// });
 
     //Keep map centered
     google.maps.event.addDomListener(window, 'resize', function() {
