@@ -389,12 +389,6 @@ a.button.wishlist:hover {
 .product-quick-view { 
   height: 500px; 
 }
-.product-quick-view .counter .value h5 { 
-  line-height: 18px; 
-}
-.product-quick-view .counter .value h5 { 
-  line-height: 18px; 
-}
 
 #shop.right .shop-products {
   float: none;
@@ -480,4 +474,36 @@ ul.product-list .list-item .pin.circle {
 #map img{
   position: absolute;
   width: 40%;
+}
+ul.product-list .list-item .pin.circle {
+    background: url(images/icons/tag1.png) no-repeat center;
+    background-size: 130% 130%;
+}
+.authen-container{
+  display:flex;
+  justify-content: center;
+  margin: 20px -10px;
+  flex-wrap: wrap;
+}
+.authen-container .authen{
+  max-width: 80%;
+  width:300px;
+  margin: 0 10px;
+}
+.authen-container .authen img{
+  width:100%;
+}
+.custom-btn.button{
+  width: 270px;
+  display:block;
+  margin:0 auto;
+}
+#shop .shop-products .shopping-cart .cell .actions {
+  float: none;
+  width: 52px;
+  margin: 0 auto;
+}
+.counter .value h5 {
+ margin-top: 0;
+ margin-bottom: 0;
 }
