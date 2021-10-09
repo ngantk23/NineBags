@@ -17,6 +17,7 @@
 		CAROUSELS
 	-----------------*/
 	$('#owl-f-products').owlCarousel(defaults);
+	$('#ngan').owlCarousel(defaults);
 
 	$('#owl-bs-products').owlCarousel(defaults);
 
@@ -53,7 +54,7 @@
 		e.data.owlObject.prev();
 	}
 
-	var carousels = ['#owl-f-products', '#owl-bs-products', '#owl-blog-posts', '#owl-brands'];
+	var carousels = ['#owl-f-products', '#owl-bs-products', '#owl-blog-posts', '#owl-brands',, '#ngan'];
 
 	registerCarousels(carousels);
 
